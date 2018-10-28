@@ -16,4 +16,22 @@ Basic Requirements :
 8) The device should have a blinking heartbeat LED
 9) TBD
 
+Basic Design :
+--------------
 
+Equipment decisions :
+- Microcontroller with Wifi support will be a "NodeMCU"
+- Mechanical controller hardware will be a servo
+- The temperature sensor will be "TBD"
+
+Software Interfaces :
+- "/" page should ask for login if not authenticated
+- Authentication tokens should be carried out to every request\
+- The interface should display the current temperature
+- There should be a setting for target temperature
+- There should be shortcut buttons for different target temperatures
+- The selection will be applied when the user presses "APPLY" button
+- The commands will be handled by different URLs to be used as web services for direct requests
+   e.g. /targetTempSet   /readCurrentTemp
+   
+ 
