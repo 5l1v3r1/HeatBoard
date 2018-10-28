@@ -34,4 +34,11 @@ Software Interfaces :
 - The commands will be handled by different URLs to be used as web services for direct requests
    e.g. /targetTempSet   /readCurrentTemp
    
+ ![Basic Design](https://github.com/barisdinc/HeatBoard/blob/master/Docs/HomeDuino.png)
+ 
+ TODO : 
+ ------
+ - Finish the NodeMCU implementation
+ - Finish Webb application
+ - Try developing an Android App
  
