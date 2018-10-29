@@ -42,5 +42,5 @@ Software Interfaces :
  - Finish Webb application
  - Try developing an Android App
  - Temperature controller should be a seperate ESP-01 on and stair
- 
+ - OTA support will be added
  
