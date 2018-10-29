@@ -41,4 +41,6 @@ Software Interfaces :
  - Finish the NodeMCU implementation
  - Finish Webb application
  - Try developing an Android App
+ - Temperature controller should be a seperate ESP-01 on and stair
+ 
  
