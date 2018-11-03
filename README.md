@@ -44,3 +44,4 @@ Software Interfaces :
  - Temperature controller should be a seperate ESP-01 on and stair
  - OTA support will be added
  - Android application for non-web application
+ - Think on CloudApp gateway for asyncronius communicaiton
