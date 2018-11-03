@@ -28,8 +28,9 @@ final GpioPinDigitalOutput pin1 = gpio.provisionDigitalOutputPin(RaspiPin.GPIO_0
 final GpioPinDigitalOutput pin2 = gpio.provisionDigitalOutputPin(RaspiPin.GPIO_01, "Relay2", PinState.HIGH );
 final GpioPinDigitalOutput pin3 = gpio.provisionDigitalOutputPin(RaspiPin.GPIO_02, "Relay3", PinState.HIGH );
 final GpioPinDigitalOutput pin4 = gpio.provisionDigitalOutputPin(RaspiPin.GPIO_03, "Relay4", PinState.HIGH );
-
-
+//TODO : Add numeric value services for temperature control
+  
+  
 ServerSocket svr = new ServerSocket(6000);
 
 System.out.println("Server Started at port 6000");
